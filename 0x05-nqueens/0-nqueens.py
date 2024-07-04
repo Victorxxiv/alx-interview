@@ -36,7 +36,7 @@ def attack_queen(square, queen):
     (row1, col1) = square
     (row2, col2) = queen
     return (row1 == row2) or (col1 == col2) or\
-            abs(row1 - row2) == abs(col1 - col2)
+        abs(row1 - row2) == abs(col1 - col2)
 
 
 def safe_queen(sqr, queens):
