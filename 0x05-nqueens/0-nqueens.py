@@ -21,7 +21,7 @@ if n_q < 4:
 
 
 def solve_nqueens(n):
-    ''' self descriptive '''
+    """Solves the N Queens problem"""
     if n == 0:
         return [[]]
     inner_solution = solve_nqueens(n - 1)
@@ -32,7 +32,7 @@ def solve_nqueens(n):
 
 
 def attack_queen(square, queen):
-    '''self descriptive'''
+    """Checks if two queens attack each other"""
     (row1, col1) = square
     (row2, col2) = queen
     return (row1 == row2) or (col1 == col2) or\
@@ -40,7 +40,7 @@ def attack_queen(square, queen):
 
 
 def safe_queen(sqr, queens):
-    '''self descriptive'''
+    """Checks if a queen can be placed safely"""
     for queen in queens:
         if attack_queen(sqr, queen):
             return False
