@@ -1,3 +1,3 @@
 Island Perimeter
-Algorithm
+Algorithm &
 Python
