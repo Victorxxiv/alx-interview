@@ -1,3 +1,1 @@
-Prime Game
-Algorithm
-Python
+0x0A. Prime Game
