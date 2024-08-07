@@ -34,7 +34,7 @@ def findPrimes(n):
     target = list(n)
     for i in range(1, len(target) + 1):
         if isPrime(i):
-            counter +=1
+            counter += 1
             target.remove(i)
             target = findMultiples(i, target)
         else:
